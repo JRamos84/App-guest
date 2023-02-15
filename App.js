@@ -1,2 +1,2 @@
 import { questions } from "./data/questions.js";
-console.log(questions)
+console.log(questions);
