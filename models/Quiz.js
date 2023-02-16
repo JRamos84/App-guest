@@ -26,6 +26,7 @@ export class Quiz {
   }
 
   guess(answer) {
+   
     if (this.getQuestionIndex().correctAnswer(answer)) {
       this.score++;
     }
